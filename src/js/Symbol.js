@@ -8,7 +8,7 @@ export default class Symbol {
       this.img = cache[name].cloneNode();
     } else {
       this.img = new Image();
-      this.img.src = require(`../assets/symbols/${name}.svg`);
+      this.img.src = require(`../assets/symbols/${name}.png`);
 
       cache[name] = this.img;
     }
@@ -20,15 +20,15 @@ export default class Symbol {
 
   static get symbols() {
     return [
-      "at_at",
-      "c3po",
-      "darth_vader",
-      "death_star",
-      "falcon",
-      "r2d2",
-      "stormtrooper",
-      "tie_ln",
-      "yoda",
+      "orca",
+      "sbr",
+      "solana",
+      "serum",
+      "usdc",
+      "mango",
+      "dexlab",
+      "samo",
+      "solfarm",
     ];
   }
 

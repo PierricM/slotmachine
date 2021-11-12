@@ -6,19 +6,19 @@ export default class Slot {
     Symbol.preload();
 
     this.currentSymbols = [
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
     ];
 
     this.nextSymbols = [
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
-      ["death_star", "death_star", "death_star"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
+      ["orca", "orca", "orca"],
     ];
 
     this.container = domElement;
