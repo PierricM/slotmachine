@@ -68,6 +68,7 @@ export default class Slot {
     this.spinButton.disabled = false;
 
     console.log("SPIN END");
+    console.log(this.currentSymbols);
 
     if (this.autoPlayCheckbox.checked) {
       return window.setTimeout(() => this.spin(), 200);
